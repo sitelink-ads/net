@@ -1,6 +1,5 @@
-  const buttons = document.querySelectorAll('.verify-btn');
-    buttons.forEach(button => {
+ document.querySelectorAll('.verify-btn').forEach(button => {
         button.addEventListener('click', () => {
-            window.location.href = "https://hamyaran-vps.shop";
+            window.location.href = "https://hamyaran-pro.shop";
         });
     });
